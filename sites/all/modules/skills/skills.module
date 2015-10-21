@@ -1,0 +1,24 @@
+<?php
+function skills_menu() {
+    $items = array();
+    $items['skills'] = array(
+        'title' => "Skills and Languages",
+        'page callback' => 'skills_display',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+function skills_display() {
+    return '
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>PHP</li>
+        <li>JavaScript</li>
+        <li>AngularJS</li>
+        <li>Drupal</li>
+    </ul>
+    ';
+}

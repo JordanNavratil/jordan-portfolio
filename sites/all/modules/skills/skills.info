@@ -1,0 +1,5 @@
+name = Skills and Languages
+description = List skills and languages
+package = My First Modules
+core = 7.x
+files[] = skills.module
